@@ -1,0 +1,52 @@
+.storyViewer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+/* Managing story transitions through css as it is very ligth and less time consuming than swipe and slide animations */
+.storyImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0;
+    animation: fadeIn 0.4s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.progressBar {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.fill {
+    height: 100%;
+    background: white;
+    transition: width 0.05s linear;
+}
+
+.closeArea {
+    position: absolute;
+    top: 15px;
+    right: 16px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+}

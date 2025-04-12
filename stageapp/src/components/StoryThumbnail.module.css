@@ -1,0 +1,31 @@
+.thumbnailUnviewed {
+    border: 2px solid #ff8501;
+    border-radius: 50%;
+    padding: 2px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.thumbnailViewed {
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    padding: 2px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.thumbnailUnviewed img,
+.thumbnailViewed img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}

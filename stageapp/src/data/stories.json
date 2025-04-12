@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "user": "Anoushka",
+        "thumbnail": "/images/anoushka-thumb.jpg",
+        "image": "/images/anoushka-story.png"
+    },
+    {
+        "id": "2",
+        "user": "Emanuel",
+        "thumbnail": "/images/emanuel-thumb.jpg",
+        "image": "/images/emanuel-story.png"
+    }
+]

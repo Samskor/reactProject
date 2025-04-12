@@ -1,0 +1,40 @@
+.storyList {
+    display: flex;
+    overflow-x: auto;
+    gap: 0.75rem;
+    padding: 1rem 0.5rem;
+}
+
+.storyItem {
+    flex: 0 0 auto;
+    text-align: center;
+    width: 80px;
+}
+
+.storyUsername {
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 480px) {
+    .storyItem {
+        width: 64px;
+    }
+
+    .storyUsername {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .storyItem {
+        width: 90px;
+    }
+
+    .storyUsername {
+        font-size: 0.9rem;
+    }
+}
